@@ -1,6 +1,6 @@
 {
   "name": "node-sftp-s3",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "Node JS module for creating an SFTP server with user isolation that uses S3 for file storage.",
   "main": "index.js",
   "scripts": {
@@ -17,13 +17,19 @@
     "sftp"
   ],
   "author": "Cody Rigney",
+  "contributors": [
+    {
+      "name": "Igor Savin",
+      "email": "kibertoad@gmail.com",
+      "url": "https://github.com/kibertoad"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codyrigney92/node-sftp-s3/issues"
+    "url": "https://github.com/kibertoad/node-sftp-s3/issues"
   },
-  "homepage": "https://github.com/codyrigney92/node-sftp-s3#readme",
+  "homepage": "https://github.com/kibertoad/node-sftp-s3#readme",
   "dependencies": {
-    "aws-sdk": "^2.4.12",
     "buffer-equal-constant-time": "^1.0.1",
     "lodash": "^4.14.1",
     "moment": "^2.14.1",
