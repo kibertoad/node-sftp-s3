@@ -41,3 +41,4 @@ jspm_packages
 aws.json
 keys/
 .env
+.idea
